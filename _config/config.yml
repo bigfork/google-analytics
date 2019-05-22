@@ -1,0 +1,9 @@
+---
+Name: 'google-analytics'
+---
+SilverStripe\SiteConfig\SiteConfig:
+  extensions:
+    - BigforkGoogleAnalytics\GoogleConfig
+SilverStripe\CMS\Controllers\ContentController:
+  extensions:
+    - BigforkGoogleAnalytics\GoogleLogger

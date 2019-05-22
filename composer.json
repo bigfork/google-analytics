@@ -1,0 +1,17 @@
+{
+	"name": "bigfork/google-analytics",
+	"type": "silverstripe-vendormodule",
+	"description": "Slimline module for configuring Google Analytics via SilverStripe CMS. Intended for advanced users, the ability to add parameters through CMS makes it very possible to break the whole site.",
+	"authors": [{
+		"name": "Loz Calver",
+		"email": "lozcalver@bigfork.co.uk"
+	}, {
+        "name": "Colin Richardson",
+        "email": "colinrichardson@bigfork.co.uk"
+    }],
+	"require":
+	{
+		"silverstripe/framework": "^4",
+		"silverstripe/cms": "^4"
+	}
+}
